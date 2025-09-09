@@ -1,0 +1,74 @@
+roadmap:
+  repo: "N0th1ngless/btsc-risk-register"
+  timeframe: "0 - 6 months"
+  milestones:
+    - name: "Critical Controls & Stabilization"
+      window: "0-6 weeks"
+      due: "2025-10-21"
+      objectives:
+        - "Reduce risk of traceability failure and release delays"
+        - "Improve real-time inventory visibility to prevent acute stock-outs"
+      issues:
+        - number: 53
+          title: "Configure LIS resilience: backups, HA, and tested recovery"
+          estimate: "3-4 weeks"
+          owner_label: "owner:IT_Lead"
+        - number: 47
+          title: "Implement end-to-end barcode scanning (collection → transfusion)"
+          estimate: "3-4 weeks"
+          owner_label: "owner:IT_Lead;owner:Lab_Ops"
+        - number: 45
+          title: "Create automated reconciliation jobs and daily audit reports"
+          estimate: "2 weeks"
+          owner_label: "owner:Analytics_IT"
+        - number: 38
+          title: "Implement daily inventory dashboard + FEFO alerts"
+          estimate: "2-3 weeks"
+          owner_label: "owner:Supply_Ops"
+    - name: "Rapid Response & Redistribution"
+      window: "4-12 weeks"
+      due: "2025-11-30"
+      issues:
+        - number: 56
+          title: "Create prioritized donor list & emergency contact SOP"
+          estimate: "1-2 weeks"
+          owner_label: "owner:Donor_Mgmt"
+        - number: 50
+          title: "Implement Inventory Dashboard and FEFO Rotation"
+          estimate: "1 week"
+          owner_label: "owner:Supply_Ops"
+        - number: 54
+          title: "Auto-alerts for nearing-expiry units + redistribution workflow"
+          estimate: "2-3 weeks"
+          owner_label: "owner:Logistics"
+        - number: 49
+          title: "Prepare Rapid Mobile Collection Kit and SOP"
+          estimate: "1-2 weeks"
+          owner_label: "owner:Field_Ops"
+    - name: "Coordination, Scheduling & MOUs"
+      window: "8-16 weeks"
+      due: "2025-12-31"
+      issues:
+        - number: 52
+          title: "Mutual-Aid MOUs and Emergency Procurement Fast-Track"
+          estimate: "4-8 weeks"
+          owner_label: "owner:Program_Lead;owner:Legal"
+        - number: 44
+          title: "Inter-facility redistribution MOUs and rapid transfer protocol"
+          estimate: "3-6 weeks"
+          owner_label: "owner:Logistics"
+        - number: 42
+          title: "Implement demand-driven collection scheduling and appointment system"
+          estimate: "4-6 weeks"
+          owner_label: "owner:Program_Lead;owner:IT_Lead"
+    - name: "Clinical Prioritization & Training"
+      window: "10-20 weeks"
+      due: "2026-01-31"
+      issues:
+        - number: 51
+          title: "Clinical Prioritization Protocol for Blood Shortages"
+          estimate: "2-3 weeks"
+          owner_label: "owner:Clinical_Lead"
+notes:
+  - "Owner placeholders are implemented as labels of form owner:<role>. Replace with real GitHub handles when available."
+  - "Due dates are suggested; adjust to match your release cadence."
